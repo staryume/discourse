@@ -180,7 +180,7 @@ zh_TW:
       "6": "回覆"
       "7": "提及"
       "9": "引用"
-      "10": "收藏"
+      "10": "My飛佛"
       "11": "編輯"
       "12": "送出的項目"
       "13": "收件匣"
@@ -576,15 +576,15 @@ zh_TW:
     go_back: '返回'
     current_user: '到你的用戶頁面'
 
-    favorite:
+    starred:
       title: '收藏'
       help:
-        star: '將此主題加入你的收藏列表'
-        unstar: '將此主題從你的收藏列表移除'
+        star: '將此主題加入你的My飛佛'
+        unstar: '將此主題從你的My飛佛列表移除'
 
     topics:
       none:
-        favorited: "你尚未收藏任何主題，要收藏主題請按標題前面的星號。"
+        starred: "你尚未收藏任何主題，要收藏主題請按標題前面的星號。"
         unread: "你沒有未讀的主題。"
         new: "你沒有新的主題。"
         read: "你尚未閱讀任何主題。"
@@ -599,7 +599,7 @@ zh_TW:
         read: "已經沒有其它已讀的主題了。"
         new: "已經沒有其它新主題了。"
         unread: "已經沒有其它未讀的主題了。"
-        favorited: "已經沒有其它收藏的主題了。"
+        starred: "已經沒有其它收藏的主題了。"
         category: "{{category}} 類別已經沒有其它主題了。"
 
     rank_details:
@@ -1052,7 +1052,7 @@ zh_TW:
     views: "觀看"
     replies: "回覆"
     views_long: "此主題已被看過 {{number}} 次"
-    activity: "活動"
+    activity: "個人檔案"
     likes: "讚"
     likes_long: "此主題收到了  {{number}}  個讚"
     users: "用戶"
@@ -1069,7 +1069,7 @@ zh_TW:
       hot:
         title: "熱門"
         help: "最熱門的主題"
-      favorited:
+      starred:
         title: "收藏"
         help: "你收藏的主題"
       read:
@@ -1101,7 +1101,7 @@ zh_TW:
           other: "{{categoryName}} ({{count}})"
         help: "{{categoryName}} 類別最近的主題"
 
-    browser_update: '你抱歉，<a href="http://www.discourse.org/faq/#browser">你的網頁瀏覽器過於老舊無法使用 Discourse 論壇</a>，請先<a href="http://browsehappy.com">升級你的瀏覽器</a>。'
+    browser_update: '你抱歉，你的網頁瀏覽器過於老舊無法使本論壇，請先<a href="http://browsehappy.com">升級你的瀏覽器</a>。'
 
     permission_types:
       full: "建立 / 回覆 / 觀看"
